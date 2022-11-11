@@ -1,0 +1,29 @@
+body {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-end;
+  background-color: brown;
+  color: aliceblue;
+}
+.footer__menu__link {
+  margin-left: 50px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 860px) {
+  .header__menu,
+  .footer {
+    display: none;
+  }
+}
